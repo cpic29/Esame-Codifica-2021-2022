@@ -1,0 +1,203 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #685D4E;
+}
+
+.navbar{
+  background-color:  #685D4E;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:#FFF8F0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.container {
+  max-width: 800px; }
+.header {
+  margin-top: 6rem;
+  text-align: center; }
+
+
+/* cursore parti cliccabili */
+.c{
+  cursor:pointer;
+}
+
+.u-full-width {
+  width: 100%; }
+
+.u-max-full-width {
+  max-width: 100%; }
+
+/* Floats */
+.u-pull-right {
+  float: right; }
+
+.u-pull-left {
+  float: left; }
+
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Positioning */
+.u-center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * Note:
+ *
+ * Nest this class inside something with `position: relative` to have
+ * your element centered relative to its containing element.
+ *
+ * Use this class without nesting it to have your element centered relative
+ * to the viewport.
+ */
+.u-center-abs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+      -ms-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%); }
+
+/* Type */
+.u-text-center {
+  text-align: center !important; }
+
+.u-text-right {
+  text-align: right !important; }
+
+.u-text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+/* Peek a boo */
+.u-hide {
+  display: none !important; }
+
+.u-show {
+  display: block !important; }
+
+.u-invisible {
+  visibility: hidden !important; }
+
+.u-visible {
+  visibility: visible !important; }
+
+/* Misc */
+.u-img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+/* testo sbarrato*/
+
+.strike
+{
+  text-decoration: line-through;
+}
+
+/*colori fenomeni testo */
+
+.v
+{
+  background-color: #b1e5ce !important;
+}
+
+.a
+{
+  background-color: #ecad98 !important;
+}
+
+.c
+{
+  background-color: #dfdfee !important;
+}
+
+.r
+{
+  background-color: #eed6e1 !important;
+}
+
+.g{
+  background-color: #ffffa7 !important;
+}
+
+.ev{
+  background-color: #c9ecf6 !important;
+}
+
+.bl{
+  background-color: #88a5ef !important;
+}
+
+.curs{
+  cursor: help;
+}
+
+.foot{
+  color: #FFF8F0;
+  background-color: #685D4E;
+  padding:40px 40px;
+}
+
+.curs2{
+  cursor: pointer;
+}
+
+.cent{
+  padding-left: 180px;
+}
+
+.cent2{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+
+/* Larger than phone */
+@media (min-width: 550px) {
+  .header {
+    margin-top: 18rem; }
+  }
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .navbar-spacer {
+  display: block;
+  width: 100%;
+  height: 6.5rem;
+  background: #fff;
+  z-index: 99;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+}
+  
