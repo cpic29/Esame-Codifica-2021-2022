@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./Desktop/ProgettoCodifica/Prolusioni.xsl" type="text/xsl" ?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI version="4.4.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+          <titleStmt>
+            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+            <title xml:lang="fr" type="sub">(cours d'ouverture, <date when="1891-11">Novembre 1891</date>)</title>
+            <title xml:lang="it" type="alt">Le prime tre conferenze all'Università</title>
+            <title xml:lang="it" type="sub">(corso d'apertura, <date when="1891-11">Novembre 1891</date>)</title>
+            <author ref="#FdS" role="author">Ferdinand de Saussure</author>
+          </titleStmt>
+
+          
+            <editionStmt>
+                <edition n="DigitalEdition">Edizione digitale
+                    <date when="2022-09">Settembre 2022</date>
+                </edition>
+                <respStmt>
+                    <resp>Progetto coordinato da: </resp>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica a cura di: </resp>
+                    <name ref="#CP">Chiara Piccolo </name>
+                    <name ref="#PYY">Paula Yordanova Yoncheva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Traduzione di: </resp>
+                    <name ref="#EF">Emanuele Fadda</name>
+                </respStmt>
+            </editionStmt>
+
+
+            <publicationStmt>
+                <publisher>
+                    Università di <placeName ref="#PI">Pisa</placeName>
+                </publisher>
+                <pubPlace ref="#PI">Pisa</pubPlace> <!-- ho cambiato l'ordine -->
+                <availability status="free">
+                  <p>Progetto ad accesso libero</p>
+                </availability>
+                <date when="2022">2022</date>
+              </publicationStmt>
+
+        
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                    <placeName ref="#CH" >Svizzera</placeName>
+                    <institution ref="#BDG">Bibliothèque de Genève</institution>
+                    <repository ref="#BDG">Bibliothèque de Genève</repository>
+                    <collection>Archives Ferdinand de Saussure</collection>
+                    <idno type="inventory">3951/1</idno>
+                    <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier>
+                </msIdentifier>
+                <msContents>
+                    <msItem>
+                        <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                        <author xml:lang="fr">Ferdinand de Saussure</author>
+                        <docDate when="1891-11">Novembre 1891</docDate>
+                        <textLang mainLang="fr">Francese</textLang>
+                    </msItem>
+                </msContents>
+
+                <physDesc>
+                    <objectDesc form="folio">
+                    <supportDesc source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+                        <support>
+                        <material>Pagine di carta</material>
+                        </support>
+                        <extent>
+                        <measureGrp unit="pages" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"> 
+                            <measure quantity="30">30 pagine +</measure>
+                            <measure quantity="15">15 pagine +</measure>
+                            <measure quantity="22">22 pagine </measure>
+                            <measure quantity="67">(67 pagine totali)+</measure><!-- -->
+                            <measure quantity="22">1 cartella</measure>
+                            </measureGrp>
+                        </extent>
+                        <condition>Il documento si presenta ben conservato, in buone condizioni. Alcune pagine presentano alcuni strappi nei bordi sinistro o destro</condition>
+                    </supportDesc>
+                    </objectDesc>
+                    <handDesc hands="1">
+                        <handNote xml:id="h1">Il testo principale è stato scritto a mano da <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>
+                    </handDesc>
+                </physDesc>
+                <history>
+                    <origin>
+                        <origDate when="1891-11" cert="high">Novembre 1891</origDate>
+                        <origPlace ref="#GE">Ginevra</origPlace>
+                    </origin>
+                </history>
+            </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="fr">Francese</language>
+      </langUsage>
+      <textDesc> <!--non può avere attributo type-->
+        <channel mode="w"/>
+        <constitution type="single"/>
+        <derivation type="original"/>
+        <domain type="education"/>
+        <factuality type="fact"/>
+        <interaction type="partial" active="singular" passive="many"/>
+        <preparedness type="draft"/>
+        <purpose type="teach" degree="high"/>
+        <purpose type="inform" degree="high"/>
+      </textDesc>
+      <settingDesc>
+        <p>Testo conservato nella <orgName ref="#BDG">Bibliothèque de <placeName ref="#GE">Genève</placeName></orgName>, in <placeName ref="#CH">Svizzera</placeName>.</p><!-- non namePlace ma placeName-->
+      </settingDesc>
+    </profileDesc>
+</teiHeader>
+
+    <facsimile>
+        <!-- Prolusioni 3 pagina 19, FRONTE-->
+        <surface n="1">
+            <graphic url='pag19.jpg' width='2662.8px' height='4031.8px' />
+             <zone ulx="1622" uly="423" lrx="1980" lry="589" xml:id="pageNum19" />
+             <zone ulx="431" uly="527" lrx="1785" lry="650" xml:id="P19_L1" />
+             <zone ulx="406" uly="667" lrx="1964" lry="778" xml:id="P19_L2" />
+             <zone ulx="404" uly="794" lrx="1993" lry="901" xml:id="P19_L3" />
+             <zone ulx="409" uly="912" lrx="1979" lry="989" xml:id="P19_L4" />
+             <zone ulx="447" uly="999" lrx="867" lry="1072" xml:id="P19_L5" />
+             <zone ulx="612" uly="1088" lrx="1996" lry="1176" xml:id="P19_L6" />
+             <zone ulx="412" uly="1179" lrx="1967" lry="1288" xml:id="P19_L7" />
+             <zone ulx="406" uly="1309" lrx="1951" lry="1400" xml:id="P19_L8" />
+             <zone ulx="423" uly="1422" lrx="1950" lry="1530" xml:id="P19_L9" />
+             <zone ulx="35" uly="1574" lrx="406" lry="1659" xml:id="P19_N" /> <!-- Nota a margine-->
+             <zone ulx="428" uly="1565" lrx="1987" lry="1635" xml:id="P19_L11" />
+             <zone ulx="444" uly="1651" lrx="2009" lry="1754" xml:id="P19_L12" />
+             <zone ulx="470" uly="1765" lrx="1991" lry="1858" xml:id="P19_L13" />
+             <zone ulx="457" uly="1872" lrx="1910" lry="1949" xml:id="P19_L14" />
+             <zone ulx="459" uly="1987" lrx="1977" lry="2077" xml:id="P19_L15" />
+             <zone ulx="483" uly="2120" lrx="1955" lry="2231" xml:id="P19_L16" />
+             <zone ulx="470" uly="2240" lrx="1167" lry="2338" xml:id="P19_L17" />
+             <zone ulx="649" uly="2349" lrx="1956" lry="2448" xml:id="P19_L18" />
+             <zone ulx="467" uly="2458" lrx="1926" lry="2701" xml:id="P19_L19" />
+             <zone ulx="535" uly="2728" lrx="1932" lry="2851" xml:id="P19_L20" />
+             <zone ulx="511" uly="2861" lrx="1969" lry="2947" xml:id="P19_L21" />
+             <zone ulx="518" uly="2976" lrx="1721" lry="3080" xml:id="P19_L22" />
+             <zone ulx="540" uly="3093" lrx="1646" lry="3240" xml:id="P19_L23" />
+ 
+ 
+         </surface>
+         
+         <!-- Prolusioni 3 pagina 19, RETRO-->
+         <surface n="2"> 
+             <graphic url='pag19_retro.png' width='2589.8px' height='4031.8px' />
+              <zone ulx="563" uly="400" lrx="2574" lry="3616" />
+         </surface>
+
+        <!-- Prolusioni 3 pagina 20-->
+        <surface n="3" xml:id="P3_20">
+            <graphic url='pag20.jpg' width='2040px' height='2872px' />
+            <zone ulx="255" uly="171" lrx="1841" lry="2693" xml:id="FullPage20"/>
+            <zone ulx="309" uly="197" lrx="575" lry="309" xml:id="pageNum20"/> <!--numero in alto a sx-->
+            <zone ulx="583" uly="243" lrx="1741" lry="347" xml:id="P20_L1"/>
+            <zone ulx="573" uly="357" lrx="1735" lry="431" xml:id="P20_L2"/>
+            <zone ulx="549" uly="439" lrx="1747" lry="505" xml:id="P20_L3"/>
+            <zone ulx="567" uly="519" lrx="1705" lry="581" xml:id="P20_L4"/>
+            <zone ulx="573" uly="601" lrx="1707" lry="677" xml:id="P20_L5"/>
+            <zone ulx="561" uly="689" lrx="1809" lry="751" xml:id="P20_L6"/>
+            <zone ulx="563" uly="785" lrx="1715" lry="831" xml:id="P20_L7"/>
+            <zone ulx="551" uly="863" lrx="1789" lry="933" xml:id="P20_L8"/>
+            <zone ulx="563" uly="945" lrx="1743" lry="1025" xml:id="P20_L9"/>
+            <zone ulx="561" uly="1047" lrx="1765" lry="1121" xml:id="P20_L10"/>
+            <zone ulx="561" uly="1133" lrx="1735" lry="1199" xml:id="P20_L11"/>
+            <zone ulx="561" uly="1201" lrx="1743" lry="1263" xml:id="P20_L12"/>
+            <zone ulx="573" uly="1303" lrx="1771" lry="1393" xml:id="P20_L13"/>
+            <zone ulx="575" uly="1413" lrx="1729" lry="1463" xml:id="P20_L14"/>
+            <zone ulx="557" uly="1491" lrx="1759" lry="1557" xml:id="P20_L15"/>
+            <zone ulx="557" uly="1593" lrx="1763" lry="1631" xml:id="P20_L16"/>
+            <zone ulx="539" uly="1677" lrx="1305" lry="1729" xml:id="P20_L17"/>
+            <zone ulx="597" uly="1751" lrx="1793" lry="1817" xml:id="P20_L18"/>
+            <zone ulx="565" uly="1847" lrx="1767" lry="1913" xml:id="P20_L19"/>
+            <zone ulx="559" uly="1947" lrx="1755" lry="1981" xml:id="P20_L20"/>
+            <zone ulx="591" uly="2045" lrx="1757" lry="2075" xml:id="P20_L21"/>
+            <zone ulx="603" uly="2135" lrx="1757" lry="2161" xml:id="P20_L22"/>
+            <zone ulx="607" uly="2221" lrx="1729" lry="2271" xml:id="P20_L23"/>
+            <zone ulx="611" uly="2311" lrx="1731" lry="2355" xml:id="P20_L24"/>
+            <zone ulx="623" uly="2405" lrx="1757" lry="2449" xml:id="P20_L25"/>
+            <zone ulx="621" uly="2477" lrx="1093" lry="2549" xml:id="P20_L26"/>
+            <zone ulx="809" uly="2567" lrx="1767" lry="2589" xml:id="P20_L27"/>
+            <zone ulx="647" uly="2639" lrx="1779" lry="2665" xml:id="P20_L28"/>
+            <zone ulx="1471" uly="2661" lrx="1737" lry="2695" xml:id="P20_L29"/>
+            <zone ulx="307" uly="2049" lrx="513" lry="2459" xml:id="P20_N"/> <!-- Nota a margine -->
+        </surface>
+    </facsimile>
+
+
+    <!-- trascrizione pagina 19 -->
+    <text subtype="manuscript">
+        <group>
+            <group xml:id="fr_Prolusioni" xml:lang="fr">
+                <text>
+                    <body>
+                        <div type="page" n="19" xml:lang="fr">
+                            <pb n="19" facs="#FullPage19"/>
+                            <!-- pb: page beginning, inizio documento impaginato -->
+
+                            <fw type="pageNum"  xml:id="HandPageNumber-19" place="top-right" facs="#pageNum19">19.</fw>
+                            <!-- numero di impaginazione a mano-->
+
+                            <ab type="pericope" n="1" xml:id="Pericope1_P19">
+                                <lb xml:id="Pag19_1" n="1" facs="#P19_L1"/>
+                                Les <term ref="#recherches">recherches</term> <term ref="#dialecte">dialectales</term> <del rend="overstrike" hand="author" resp="#FdS"><unclear/></del> sont
+                                            
+                                <lb xml:id="Pag19_2" n="2" facs="#P19_L2"/>
+                                actuellement uniquement dirigées vers ce but,
+                                            
+                                <lb xml:id="Pag19_3" n="3" facs="#P19_L3"/>
+                                de <term ref="#délimiter">délimiter</term> l'<term ref="#adfl">aire des faits linguistiques</term>
+                                            
+                                <lb  xml:id="Pag19_4" n="4" facs="#P19_L4"/>
+                                mais non de tracer des <term ref="#unités">unités</term> <term ref="#imaginaires">imaginaires</term>
+                                            
+                                <lb xml:id="Pag19_5" n="5" facs="#P19_L5"/>
+                                de <term ref="#dialectes">dialectes</term>.
+                            </ab>
+
+
+                            <ab type="pericope" n="2" xml:id="Pericope2_P19">
+                                <lb xml:id="Pag19_6" n="6" facs="#P19_L6"/>                 
+                                On peut <term ref="#délimiter">délimiter</term> de kilomètre en
+                                            
+                                <lb xml:id="Pag19_7" n="7" facs="#P19_L7"/>                                     
+                                kilomètre la <term ref="#frontière">frontière</term> où s'arrete le
+                                            
+                                <lb xml:id="Pag19_8" n="8" facs="#P19_L8"/>                                    
+                                <term ref="#changement">changement</term> de <emph style="underline">a</emph> <lang>latin</lang> en <emph style="underline">e</emph>; <emph style="underline"><foreign xml:lang="la">donar</foreign></emph> ou
+                                            
+                                <lb xml:id="Pag19_9" n="9" facs="#P19_L9"/>                                      
+                                <emph style="underline"><foreign xml:lang="la">doner</foreign></emph>; 
+                            </ab>
+
+                            <ab type="pericope" n="3" xml:id="Pericope3_P19">
+                                
+                                mais vouloir sur ce <term ref="#caractère">caractère</term>
+
+                                <lb xml:id="Pag19_10" n="10" facs="#P19_L10"/>                                  
+                                <add place="margin-left" xml:id="Nota_P19" facs="#P19_N"  hand="author" resp="#FdS">
+                                    our sur d'autres
+                                </add>
+                                <term ref="#diviser">diviser</term> la <placeName ref="#FR">France</placeName> en <term ref="#ldoc">langue d'oc</term> et <term ref="#ldoil">langue  
+
+                                <lb xml:id="Pag19_11" n="11" facs="#P19_L11"/>
+                                d'oil</term> est <choice><abbr>abs<am>.</am></abbr><expan>absoulment</expan></choice> faux; parce que par <choice><abbr>exe<am>.</am></abbr><expan>exemple</expan></choice>
+                                            
+                                <lb xml:id="Pag19_12" n="12" facs="#P19_L12"/>                                      
+                                <del rend="overstrike" hand="author" resp="#FdS">une partie</del> <choice><abbr><num type="cardinal">1</num></abbr><expan>un</expan></choice> autre caractère partagera
+                                            
+                                <lb xml:id="Pag19_13" n="13" facs="#P19_L13"/>
+                                la <placeName ref="#FR">France</placeName> transversalement <choice><abbr>ds</abbr><expan>dans</expan></choice> l'autre 
+                                            
+                                <lb xml:id="Pag19_14" n="14" facs="#P19_L14"/>
+                                <term ref="#sens">Sens</term>, la divisant en Est et Ouest; 
+                            </ab>
+
+                            <ab type="pericope" n="4" xml:id="Pericope4_P19">
+                                un
+                                            
+                                <lb xml:id="Pag19_15" n="15" facs="#P19_L15"/>
+                                <choice><abbr><num type="ordinal">3°</num></abbr><expan>troisième</expan></choice> ira en diagonale depuis les <geogName type="mountains">Alpes</geogName>
+                                            
+                                <lb xml:id="Pag19_16" n="16" facs="#P19_L16"/>
+                                vers <del rend="overstrike" hand="author" resp="#FdS">la</del> l'<geogName type="ocean">Océan</geogName> <choice><abbr>etc<am>.</am></abbr><expan>etcetra</expan></choice>
+                            </ab>
+
+
+                            <ab type="pericope" n="5" xml:id="Pericope5_P19">
+                                <lb xml:id="Pag19_17" n="17" facs="#P19_L17"/>
+                                Rien de <choice><abbr><formula>+</formula></abbr><expan>plus</expan></choice> intéressant à cet égard que 
+                                            
+                                <lb xml:id="Pag19_18" n="18" facs="#P19_L18"/>
+                                <ref target="#SDR"><term ref="#al"><emph style="underline">l'Atlas linguistique</emph></term></ref> de l'<placeName type="empire">Empire allemande</placeName>.
+                            </ab> 
+
+
+                            <ab type="pericope" n="6" xml:id="Pericope6_P19">
+                                    
+                                <lb xml:id="Pag19_19" n="19" facs="#P19_L19"/>
+                                Il est encore <choice><abbr><formula>+</formula></abbr><expan>plus</expan></choice> intéressant de suivre 
+                                            
+                                <lb xml:id="Pag19_20" n="20" facs="#P19_L20"/>
+                                à la fois <choice><abbr>ds</abbr><expan>dans</expan></choice> le <term ref="#temps">temps</term> et <choice><abbr>ds</abbr><expan>dans</expan></choice> l'<term ref="#espace">espace</term> 
+                                            
+                                <lb xml:id="Pag19_21" n="21" facs="#P19_L21"/>
+                                la <del type="overstrike" hand="author" resp="#FdS">marche</del> <add place="supralinear" hand="author" resp="#FdS"><term ref="#propagation">propagation</term></add> de ces grands <term ref="#phénomènes">phénomènes</term> 
+                                            
+                                <lb xml:id="Pag19_22" n="22" facs="P19_L22"/>
+                                <emph style="underline"><foreign xml:lang="ger">Wein</foreign>, <foreign xml:lang="ger"> Zeit</foreign>, <foreign xml:lang="ger">Haus</foreign>, <foreign xml:lang="ger">Leute</foreign>.</emph>
+                            </ab>
+                            
+                        </div>
+
+
+                        <!-- trascrizione pagina 20 -->
+                        <div type="page" n="20" xml:lang="fr">
+                            <pb n="20" facs="#FullPage20"/>
+                            <!-- pb: page beginning, inizio documento impaginato -->
+
+                            <fw type="pageNum" xml:id="HandPageNumber-20" place="top-right" facs="#pageNum20">20</fw>
+                            <!-- numero di impaginazione a mano-->
+
+                            <ab type="pericope" n="1" xml:id="Pericope1_P20">
+                                <lb xml:id="Pag20_1" n="1" facs="#P20_L1"/>
+                                L'effet de ces <term ref="#phénomènes">phénomènes</term> <term ref="#successifs">successifs</term>,
+                                
+                                <lb xml:id="Pag20_2" n="2" facs="#P20_L2"/>
+                                observant tous la loi de la continuité geo
+                                
+                                <lb break="yes" xml:id="Pag20_3" n="3" facs="#P20_L3"/>
+                                grapique est que le <term ref="#dialecte">dialecte</term> ne peut jamais 
+                                
+                                <lb xml:id="Pag20_4" n="4" facs="#P20_L4"/>
+                                <term ref="#différer">différer</term> qu’<term ref="#insensiblement">insensiblement</term> si l’on part d’<choice><abbr><num type="cardinal">1</num></abbr><expan>une</expan></choice> 
+                                
+                                <lb xml:id="Pag20_5" n="5" facs="#P20_L5"/>
+                                localité quelconque <choice><abbr>ds</abbr><expan>dans</expan></choice> <choice><abbr><num type="cardinal">1</num></abbr><expan>une</expan></choice> direction quelconque.
+                            </ab>
+
+                            <ab type="pericope" n="2" xml:id="Pericope2_P20">
+
+                                <lb xml:id="Pag20_6" n="6" facs="#P20_L6"/>
+                                Par <term ref="#exemple"><choice><abbr>ex<am>.</am></abbr><expan>exemple</expan></choice></term> le <lang>Savoyard</lang> qui part <choice><abbr>ds</abbr><expan>dans</expan></choice> la direction
+                            
+                                <lb xml:id="Pag20_7" n="7" facs="#P20_L7"/>
+                                de l’<!--toponimo--><placeName ref="#AU">Auvergne</placeName>, arrive au bout d’<choice><abbr><num type="cardinal">1</num></abbr><expan>un</expan></choice>  certain
+
+                                <lb xml:id="Pag20_8" n="8" facs="#P20_L8"/>
+                                <term ref="#temps">temps</term> à la <term ref="#frontière">frontière</term> de <emph style="underline">θa</emph> pour <emph style="underline"><foreign xml:lang="la">ça</foreign></emph> <lang>latin</lang>,
+
+                                <lb xml:id="Pag20_9" n="9" facs="#P20_L9"/>
+                                et trouvera par <term ref="#exemple"><choice><abbr>ex<am>.</am></abbr><expan>exemple</expan></choice></term> <emph style="underline">tsa</emph>, ainsi <emph style="underline">tša</emph>,
+
+                                <lb xml:id="Pag20_10" n="10" facs="#P20_L10"/>
+                                cela ne le trouble pas <choice><abbr>bcp</abbr><expan>beaucoup</expan></choice> et ne l’empêche pas
+
+                                <lb xml:id="Pag20_11" n="11" facs="#P20_L11"/>
+                                de comprendre;
+
+                            </ab>
+                            
+                            <!-- Pericope 3 inizia sulla stessa riga, non inserire <lb/> all'inzio. -->
+
+
+                            <ab type="pericope" n="3" xml:id="Pericope3_P20">
+                                quelques <term ref="#lieues">lieues</term> après il passe <choice><abbr><num type="cardinal">1</num></abbr><expan>une</expan></choice>
+
+
+                                <lb xml:id="Pag20_12"  n="12" facs="#P20_L12"/>
+                                autre <term ref="#frontière">frontière</term>, comme je suppose celle de
+
+                                <lb xml:id="Pag20_13" n="13" facs="#P20_L13"/>
+                                <emph rend="underline">pl</emph> donnant <emph rend="underline">pt</emph>; cela ne le trouble pas davantage;
+                            </ab>
+
+                            <ab type="pericope" n="4" xml:id="Pericope4_P20">
+                                <lb xml:id="Pag20_14"  n="14" facs="#P20_L14"/>
+                                mais à mesure qu’il s’éloigne de son
+
+                                <lb xml:id="Pag20_15" n="15" facs="#P20_L15"/>
+                                hameau natal la somme des <term ref="#différences"><choice><abbr>diff<am>.</am></abbr><expan>différences</expan></choice></term> avec
+
+                                <lb xml:id="Pag20_16" n="16" facs="#P20_L16"/>
+                                son <term ref="#dialecte">dialecte</term> s’accumule et finit par devenir
+
+                                <lb xml:id="Pag20_17" n="17" facs="#P20_L17"/>
+                                telle qu’il ne comprend <choice><abbr><formula>+</formula></abbr><expan>plus</expan></choice>.
+                            </ab>
+
+                            <ab type="pericope" n="5" xml:id="Pericope5_P20">
+                                <lb xml:id="Pag20_18" n="18" facs="#P20_L18"/>
+                                La <term ref="#conséquence">conséquence</term> de cette <term ref="#observation"><choice><abbr>obs<am>.</am></abbr><expan>observation</expan></choice></term>, c’est qu’il
+
+                                <lb xml:id="Pag20_19" n="19" facs="#P20_L19"/>
+                                n’existe pas, <term ref="#régulièrement">régulièrement</term>, de <term ref="#frontière">frontière</term> entre
+
+                                <lb xml:id="Pag20_20" n="20" facs="#P20_L20"/>
+                                ce qu’on appelle <choice><abbr><num type="cardinal">2</num></abbr><expan>deux</expan></choice> <term ref="#langues"><emph rend="underline">langues</emph></term> par <term ref="#opposition"><choice><abbr>opp<am>.</am></abbr><expan>opposition</expan></choice></term> à <choice><abbr><num type="cardinal">2</num></abbr><expan>deux</expan></choice>
+
+                                <lb xml:id="Pag20_21" n="21" facs="#P20_L21"/>
+                                <term ref="#dialecte">dialectes</term>,
+
+            
+                                <add place="margin-left" xml:id="Nota_P20" facs="#P20_N"  hand="author" resp="#FdS">                 <!-- NOTA A MARGINE -->
+                                    quand ces <term ref="#langue">langues</term> son de même origine et parlées par des <choice><abbr>populati</abbr><expan>populations</expan></choice> contiguës sédentaires.
+                                </add>
+
+                            </ab>
+
+                            <ab type="pericope" n="6" xml:id="Pericope6_P20">
+                                <!-- Pericope 6 inizia sulla stessa riga, non inserire <lb/> all'inzio. -->
+
+                                Par exemple, il n’existe pas de <term ref="#frontière">frontière</term>
+
+                                <lb xml:id="Pag20_22" n="22" facs="#P20_L22"/>
+                                entre l’<lang>italien</lang><!--glottonimo--> et le <lang>français</lang>, entre les
+
+                                <lb xml:id="Pag20_23" n="23" facs="#P20_L23"/>
+                                <term ref="#dialecte">dialectes</term> qu’on voudra appeler <lang><choice><abbr>fr</abbr><expan>francais</expan></choice></lang><!--glottonimo-->  et ceux <gap reason="omitted-in-original"/>
+                            </ab>
+
+                            <ab type="pericope" n="7" xml:id="Pericope7_P20">
+                                <lb xml:id="Pag20_24" n="24" facs="#P20_L24"/>
+                                De même qu’il n’y a pas <term ref="#dialecte">dialectes</term> <!-- aggiunta sopra--><add place="above"><term ref="#délimiter">délimités</term></add>, de
+
+                                <lb xml:id="Pag20_25" n="25" facs="#P20_L25"/>
+                                de même il n’y a pas de <term ref="#langue">langues</term> <term ref="#délimiter">délimitées</term> <choice><abbr>ds</abbr><expan>dans</expan></choice>
+
+                                <lb xml:id="Pag20_26" n="26" facs="#P20_L26"/>
+                                les <term ref="#condition">conditions</term> normales.
+                            </ab>
+
+                            
+                            <ab type="pericope" n="8" xml:id="Pericope8_P20">
+                                <lb xml:id="Pag20_27" n="27" facs="#P20_L27"/>
+                                Ainsi la <term ref="#langue">langue</term>, qui n’était pas, nous l’avons
+
+                                <lb xml:id="Pag20_28" n="28" facs="#P20_L28"/>
+                                vu, <choice><abbr><num type="cardinal">1</num></abbr><expan>une</expan></choice> <term ref="#notion">notion</term> <term ref="#defini">définie</term> <choice><abbr>ds</abbr><expan>dans</expan></choice> le <term ref="#temps">temps</term>, n’est pas davantage
+
+                                <lb xml:id="Pag20_29"  n="29" facs="#P20_L29"/>
+                                <choice><abbr><num type="cardinal">1</num></abbr><expan>une</expan></choice> <term ref="#notion"><choice><abbr>not<am>.</am></abbr><expan>notion</expan></choice></term> <term ref="#defini"><choice><abbr>def</abbr><expan>defini</expan></choice></term> <choice><abbr>ds</abbr><expan>dans</expan></choice> l’<term ref="#espace"><supplied reason="omitted-in-original">espace</supplied></term> 
+
+                            </ab>
+                        </div>
+                    </body>
+                </text>
+             </group>
+
+            <group xml:id="it_Prolusioni" xml:lang="it">
+                <text>
+                    <body>
+
+                    <!-- TRADUZIONE pag 19-->
+                        <div type="page" n="19" xml:lang="it" resp="#EF">
+                    
+                            <ab n="1" corresp="#Pericope1_P19">
+                                Le ricerche dialettali sono al momento unicamente dirette verso tale scopo, di delineare l'area dei fatti linguistici, ma non di tracciare unità immaginarie di dialetti.
+                            </ab>
+                                
+                            <ab n="2" corresp="#Pericope2_P19">        
+                                Si può delimitare di chilometro in chilometro la frontiera in cui si ferma il cambiamento di <emph style="font-style:italic">a</emph> latino in <emph style="font-stye:italic">e</emph>: <emph style="font-style:italic">donar</emph> o <emph style="font-style:italic">doner</emph>;       
+                            </ab>
+                        
+                                
+                            <ab n="3" corresp="#Pericope3_P19">         
+                                ma volere sulla base di tale carattere 
+                                <add corresp="#Nota_P19">o di altri</add> dividere la Francia in lingua d'<emph style="font-style:italic">oc</emph> e lingua d'<emph style="font-style:italic">o<g>ï</g>l</emph> è assolutamente falso, perché per esempio un altro carattere dividerà la Francia trasversalmente nell'altro senso, dividendola in Est e Ovest;        
+                            </ab>
+                        
+                                
+                            <ab n="4" corresp="#Pericope4_P19">         
+                                un terzo andrà in diagonale dalle Alpi all'Oceano, ecc.         
+                            </ab>
+                        
+                                
+                            <ab n="5" corresp="#Pericope5_P19">        
+                                Niente di più interessante a questo riguardo dell'<emph style="font-style:italic">Atlante linguistico</emph> dell'Impero tedesco.        
+                            </ab>
+                        
+                                
+                            <ab n="6" corresp="#Pericope6_P19">         
+                                È ancora più interessante seguire di volta in volta nel tempo e nello spazio la propagazione di questi grandi fenomeni <emph style="font-style:italic">Wein, Zeit, Haus, Laute</emph>.        
+                            </ab>
+                            
+                        </div>    
+
+                        
+                        <!-- TRADUZIONE pag 20-->
+
+                        <div type="page" n="20" xml:lang="it" resp="#EF">
+                            <ab n="1" corresp="#Pericope1_P20">
+                                L'effetto di questi fenomeni successivi, osservando tutta la legge della continuità geografica, è che il dialetto non può differire che insensibilmente se si parte da una località qualsiasi in una direzione qualsiasi.
+                            </ab>
+
+
+                            <ab n="2" corresp="#Pericope2_P20">
+                                Per esempio il Savoioardo che parte in direzione dell'Auvergne arriva in capo a qualche tempo alla frotniera di <emph style="font-style:italic">qa</emph> per <emph style="font-style:italic">qa</emph> latino, e troverà per esepio <emph style="font-style:italic">tsa</emph>, o anche <emph style="font-style:italic">tsa</emph>, questo non gli dà troppi problemi e non gli impedisce di comprendere;
+                            </ab>
+
+
+                            <ab n="3" corresp="#Pericope3_P20">
+                                qualche lega dopo passa un'altra frontiera, come io suppongo che sia quella di <emph style="font-style:italic">pl</emph> che dà <emph style="font-style:italic">pt</emph>; questo non gli dà maggiori difficoltà;
+                            </ab>
+
+
+                            <ab n="4" corresp="#Pericope4_P20">
+                                ma a mano a mano che si allontana dal suo paesello natìo la somma delle differenze con il suo dialetto si accumula e finisce per diventare tale che non comrpende più.
+                            </ab>
+
+
+                            <ab n="5" corresp="#Pericope5_P20">
+                                La conseguenza di questa osservazione è che non esiste - e questo in maniera regolare - alcuna frontiera quelle che vengono chiamate due <emph style="font-style:italic">lingue</emph> in opposizione a due dialetti,
+
+                                <add corresp="#Nota_P20">
+                                    quando queste lingue sono della stessa origne e parlate da poplazioni contigue sedentarie.
+                                </add>
+                            </ab>
+
+
+                            <ab n="6" corresp="#Pericope6_P20">
+                                Per esempio, non c'è frontiera tra l'italiano e il francese, tra i dialetti che si vorrà chiamare francesi e quelli.
+                            </ab>
+
+
+                            <ab n="7" corresp="#Pericope7_P20">
+                                Allo stesso modo in cui non ci sono dialetti delimitati, così non ci sono lingue delimitate nelle condizoni normali.
+                            </ab>
+
+
+                            <ab n="8" corresp="#Pericope8_P20">
+                                Così la lingua, che non era - l'abbiamo visto - una nozione definita nel tempo, non è neanche una nozione definita nello spazio.
+                            </ab>
+                        </div>
+                    </body>
+                </text>
+            </group>
+        </group>
+
+        <back>
+            <div type="addlist">
+                <list type="gloss">
+                        <label>
+                            <term xml:lang="fr" xml:id="recherches">Recherches</term>
+                            <term xml:lang="it" ref="#recherches">Ricerche</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#recherches" source="https://www.treccani.it/enciclopedia/ricerca/ricerca/">
+                                Ogni attività di studio che abbia come fine l’acquisizione di nuove conoscenze.  
+                            </gloss>
+                        </item>
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="dialecte">Dialectales</term>
+                            <term xml:lang="it" ref="#dialecte">Dialettali</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#dialecte" source="https://www.treccani.it/enciclopedia/ricerca/dialettale/">
+                                Indica un sistema linguistico di ambito geografico o culturale per lo più limitato, che non ha raggiunto o che ha perduto autonomia e prestigio di fronte agli altri sistemi con i quali costituisce geneticamente un gruppo.
+                            </gloss>
+                        </item>
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="délimiter">Délimiter</term>
+                            <term xml:lang="it" ref="#délimiter">Delimitare</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#délimiter" source="https://www.treccani.it/vocabolario/ricerca/delimitare/">
+                                 Limitare, circoscrivere; segnare il limite, i confini.
+                            </gloss>
+                        </item>
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="adfl">Aire des faits linguistiques</term>
+                            <term xml:lang="it" ref="#adfl">Area dei fatti linguistici</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#adfl" source="https://www.treccani.it/enciclopedia/ricerca/aree-linguistiche/">
+                                Per area linguistica s’intende un’area geografica caratterizzata dalla presenza di determinati fenomeni linguistici.
+                            </gloss>
+                        </item>
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="unités">Unités</term>
+                            <term xml:lang="it" ref="#unités">Unità</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#unités" source="https://www.treccani.it/vocabolario/ricerca/unit%C3%A0/">
+                                 Il fatto, la condizione e la caratteristica di essere uno, solo uno e non più di uno (contrapposto a molteplicità e pluralità).
+                            </gloss>
+                        </item>
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="imaginaires">Imaginaires</term>
+                            <term xml:lang="it" ref="#imaginaires">Immaginarie</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#imaginaires" source="https://www.treccani.it/vocabolario/ricerca/immaginario/">
+                                 Aggettivo: che è effetto d’immaginazione, che non esiste se non nell’immaginazione e non ha fondamento nella realtà. 
+                            </gloss>
+                        </item>
+
+                
+                        <label>
+                            <term xml:lang="fr" xml:id="frontière">Frontière</term>
+                            <term xml:lang="it" ref="#frontière">Frontiera</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#frontière" source="https://www.treccani.it/vocabolario/ricerca/confine/">
+                                 Linea di confine, limite di un territorio, di un terreno
+                            </gloss>
+                        </item>
+                         
+
+                        <label>
+                            <term xml:lang="fr" xml:id="changement">Changement</term>
+                            <term xml:lang="it" ref="#changement">Cambiamento</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#changement" source="https://dizionari.corriere.it/dizionario_italiano/C/cambiamento.shtml">
+                                Mutamento, trasformazione, variazione
+                            </gloss>
+                        </item>
+
+                
+                        <label>
+                            <term xml:lang="fr" xml:id="caractère">Caractère</term>
+                            <term xml:lang="it" ref="#caractère">Carattere</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#caractère" source="https://www.treccani.it/enciclopedia/ricerca/carattere/">
+                                Uno qualsiasi dei simboli utilizzati per costruire una teoria formale. Il loro insieme è detto alfabeto.
+                            </gloss>
+                        </item>
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="diviser">Diviser</term>
+                            <term xml:lang="it" ref="#diviser">Dividere</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#diviser" source="https://www.treccani.it/vocabolario/ricerca/dividere/">
+                                Fare più parti di un tutto, separare.
+                            </gloss>
+                        </item>          
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="ldoc">Langue d'oc</term>
+                            <term xml:lang="it" ref="#ldoc">Lingua d'oc</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#ldoc" source="https://it.wikipedia.org/wiki/Lingua_occitana">
+                                L'occitano, o lingua d'oc, è una lingua occitano-romanza parlata in un'area specifica del sud-Europa chiamata Occitania, non delimitata da confini politici o amministrativi e grossolanamente identificata con la Francia meridionale o Midi.
+                            </gloss>
+                        </item>  
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="ldoil">Langue d'oil</term>
+                            <term xml:lang="it" ref="#ldoil">Lingua d'oil</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#ldoil" source="https://it.wikipedia.org/wiki/Lingua_francese_antica">
+                                Il francese antico o lingua d'oïl (langue d'oïl) è la più antica forma attestata della lingua francese, parlata nei territori che coprono approssimativamente la parte settentrionale della moderna Francia e parti dei moderni Belgio e Svizzera, all'incirca dal 900 al 1400.
+                            </gloss>
+                        </item>
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="absolument">Absolument</term>
+                            <term xml:lang="it" ref="#absolument">Assolutamente</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#absolument" source="https://www.treccani.it/vocabolario/ricerca/assolutamente/">
+                                In maniera assoluta, senza limitazioni o restrizioni. Decisamente, necessariamente.
+                            </gloss>
+                        </item>
+                
+                    
+                        <label>
+                            <term xml:lang="fr" xml:id="faux">Faux</term>
+                            <term xml:lang="it" ref="#faux">Falso</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#faux" source="https://www.treccani.it/vocabolario/ricerca/falso/">
+                                In genere, si definisce falso tutto ciò che è sostanzialmente non vero, ma è creduto o si vuol far passare per vero.
+                            </gloss>
+                        </item>
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="exemple">Exemple</term>
+                            <term xml:lang="it" ref="#exemple">Esempio</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#exemple" source="https://www.treccani.it/enciclopedia/ricerca/esempio/">
+                                Fatto, atto, comportamento o cosa in genere che si propone come modello da imitare o da fuggire, o che comunque si additi all’ammirazione o alla riprovazione
+                            </gloss>
+                        </item>
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="sens">Sens</term>
+                            <term xml:lang="it" ref="#sens">Senso</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#sens" source="https://www.treccani.it/vocabolario/ricerca/senso/">
+                                Orientazione, direzione secondo la quale si effettua un movimento.
+                            </gloss>
+                        </item>
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="al">Atlas linguistique</term>
+                            <term xml:lang="it" ref="#al">Atlante linguistico</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#al" source="https://www.treccani.it/enciclopedia/atlanti-linguistici_%28Enciclopedia-dell%27Italiano%29/">
+                                Gli atlanti linguistici, strumento fondamentale e tradizionale della geografia linguistica, sono costituiti da una serie ordinata di carte, che riportano i diversi modi in cui si dice una certa cosa in un determinato territorio.                            </gloss>
+                        </item>
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="temps">Temps</term>
+                            <term xml:lang="it" ref="#temps">Tempo</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#temps" source="https://www.treccani.it/vocabolario/ricerca/tempo/">
+                                Successione di istanti, intesa sempre come una estensione illimitata, ma tuttavia capace di essere suddivisa, misurata, e distinta, in ogni sua frazione o momento.
+                            </gloss>
+                        </item>
+
+                
+                        <label>
+                            <term xml:lang="fr" xml:id="espace">Espace</term>
+                            <term xml:lang="it" ref="#espace">Spazio</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#espace" source="https://www.treccani.it/vocabolario/ricerca/spazio/">
+                                Il luogo indefinito e illimitato in cui si pensano contenute tutte le cose materiali, le quali, in quanto hanno un’estensione, ne occupano una parte, e vi assumono una posizione.
+                            </gloss>
+                        </item>
+                
+
+                        <label>
+                            <term xml:lang="fr" xml:id="propagation">Propagation</term>
+                            <term xml:lang="it" ref="#propagation">Propagazione</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#propagation" source="https://www.treccani.it/vocabolario/ricerca/propagazione/">
+                                L’opera, l’attività di propagare, più spesso, il propagarsi. In particolare l’estendersi, l’avanzare di un ente nello spazio o nel tempo o in ambedue.
+                            </gloss>
+                        </item>
+                
+
+                        <label>
+                              <term xml:lang="fr" xml:id="phénomènes">Phénomènes</term>
+                              <term xml:lang="it" ref="#phénomènes">Fenomeni</term>
+                        </label>
+                        <item>
+                            <gloss xml:lang="it" target="#phénomènes" source="https://www.treccani.it/vocabolario/ricerca/fenomeno/">
+                                Nel linguaggio scientifico, il termine è genericamente usato come sinonimo di evento; più precisamente, sono fenomeni i fatti, gli eventi provocati o spontanei, ma comunque suscettibili di osservazione e di studio.
+                            </gloss>
+                        </item>
+
+
+                        <label>
+                            <term xml:id="successifs" xml:lang="fr">Successifs</term>
+                            <term ref="#successifs" xml:lang="it">Successivi</term>
+                        </label>
+                        <item>
+                            <gloss target="#successifs" source="https://www.treccani.it/vocabolario/successivo/">
+                                Che viene dopo nel tempo, nello spazio o in un altro rapporto
+                            </gloss>
+                        </item>
+
+
+                        <label>
+                            <term xml:id="loiCG" xml:lang="fr">Loi de la continuité geograpique</term>
+                            <term ref="#loiCG" xml:lang="it">Legge della continuità geografica</term>
+                        </label>
+                        <item>
+                            <gloss target="#loiCG" source="https://www.no-regime.com/ru-it/wiki/First_law_of_geography">
+                                La prima legge della geografia è "tutto è collegato a tutto il resto, ma le cose vicine sono più correlate di quelle lontane
+                            </gloss>
+                        </item>
+
+
+                        <label>
+                            <term xml:id="différer" xml:lang="fr">Différer</term>
+                            <term ref="#différer" xml:lang="it">Differire</term>
+                        </label>
+                        <item>
+                            <gloss target="#différer" source="https://www.treccani.it/vocabolario/differire/">
+                                Esser differente, avere qualche cosa di diverso.
+                            </gloss>
+                        </item>
+
+
+                        <label>
+                            <term xml:id="insensiblement" xml:lang="fr">Insensiblement</term>
+                            <term ref="#insensiblement" xml:lang="it">Insensibilmente</term>
+                        </label>
+                        <item>
+                            <gloss target="#insensiblement" source="https://www.treccani.it/vocabolario/insensibile/">
+                                In modo impercettibile o appena avvertibile dai sensi.
+                            </gloss>
+                        </item>
+
+
+                        <label>
+                            <term xml:id="lieues" xml:lang="fr">Lieues</term>
+                            <term ref="#lieues" xml:lang="it">Lega</term>
+                        </label>
+                        <item>
+                            <gloss target="#lieues" source="https://www.treccani.it/vocabolario/lega3/">
+                                Unità di misura di distanza, e soprattutto di percorsi terrestri o marittimi, usata in passato, e spesso ancora oggi, con valori diversi da paese a paese: in Belgio (lieue) 5 km, in Francia (la lieue de poste) 3,898 km, in Gran Bretagna (league) 4,828 km, in Spagna (legua) 5,572 km, ecc.
+                            </gloss>
+                        </item>
+                        
+
+                        <label>
+                            <term xml:id="différences" xml:lang="fr">Différences</term>
+                            <term ref="#différences" xml:lang="it">Differenze</term>
+                        </label>
+                        <item>
+                            <gloss target="#différences" source="https://www.treccani.it/vocabolario/differenza/">
+                                L’esser differente; mancanza di identità, di somiglianza o di corrispondenza fra persone o cose che sono diverse tra loro per natura o per qualità e caratteri
+                            </gloss>
+                        </item>
+
+
+                        <label>
+                            <term xml:id="conséquence" xml:lang="fr">Conséquence</term>
+                            <term ref="#conséquence" xml:lang="it">Conseguenza</term>
+                        </label>
+                        <item>
+                            <gloss target="#conséquence" source="https://www.treccani.it/vocabolario/conseguenza/">
+                                Conclusione che si deduce logicamente da una premessa.
+                            </gloss>
+                        </item>
+
+
+                        <label>
+                            <term xml:id="observation" xml:lang="fr">Observation</term>
+                            <term ref="#observation" xml:lang="it">Osservazione</term>
+                        </label>
+                        <item>
+                            <gloss target="#observation" source="https://www.treccani.it/vocabolario/osservazione/">
+                                Nelle varie discipline scientifiche, la fase primaria dell’indagine, costituita dal complesso di operazioni necessarie per la rilevazione dei dati riguardanti lo svolgimento di un determinato fenomeno.
+                            </gloss>
+                        </item>
+
+
+                        <label>
+                            <term xml:id="régulièrement" xml:lang="fr">Régulièrement</term>
+                            <term ref="#régulièrement" xml:lang="it">In maniera regolare</term>
+                        </label>
+                        <item>
+                            <gloss target="#régulièrement" source="https://www.treccani.it/vocabolario/regolare1/">
+                                In modo regolare, secondo la regola o le regole; con regolarità, a intervalli regolari.
+                            </gloss>
+                        </item>
+
+
+                        <label>
+                            <term xml:id="langue" xml:lang="fr">Langue</term>
+                            <term ref="#langue" xml:lang="it">Lingua</term>
+                        </label>
+                        <item>
+                            <gloss target="#langue" source="https://www.treccani.it/vocabolario/lingua_%28Sinonimi-e-Contrari%29/">
+                                Sistema di suoni articolati distintivi e significanti, di parole e locuzioni, di forme grammaticali, di strutture sintattiche e testuali, usato da una comunità etnica, politica o culturale come mezzo di comunicazione.
+                            </gloss>
+                        </item>
+                        
+
+                        <label>
+                            <term xml:id="opposition" xml:lang="fr">Opposition</term>
+                            <term ref="#opposition" xml:lang="it">Opposizione</term>
+                        </label>
+                        <item>
+                            <gloss target="#opposition" source="https://www.treccani.it/vocabolario/opposizione/">
+                                Di una cosa rispetto a un’altra (o di due cose fra loro), il fatto d’essere opposto, contrastante, contraddittorio.
+                            </gloss>
+                        </item>
+                        
+
+                        <label>
+                            <term xml:id="condition" xml:lang="fr">Condition</term>
+                            <term ref="#condition" xml:lang="it">Condizione</term>
+                        </label>
+                        <item>
+                            <gloss target="#condition" source="https://www.treccani.it/vocabolario/condizione/">
+                                Qualità, requisito, situazione o presupposto necessarî a un determinato scopo
+                            </gloss>
+                        </item>
+
+
+                        <label>
+                            <term xml:id="notion" xml:lang="fr">Notion</term>
+                            <term ref="#notion" xml:lang="it">Nozione</term>
+                        </label>
+                        <item>
+                            <gloss target="#notion" source="https://www.treccani.it/vocabolario/nozione/">
+                                Conoscenza, cognizione di qualche cosa attinente alla vita reale
+                            </gloss>
+                        </item>
+
+                        
+                        <label>
+                            <term xml:id="defini" xml:lang="fr">Defini</term>
+                            <term ref="#defini" xml:lang="it">Definito</term>
+                        </label>
+                        <item>
+                            <gloss target="#defini" source="https://www.treccani.it/vocabolario/definito/">
+                                Preciso, determinato
+                            </gloss>
+                        </item>
+
+                </list>
+            </div>
+
+
+            <!--PLACES-->
+            <div type="luoghi">
+                <listPlace>
+                    <place xml:id="GE">
+                        <placeName ref="https://it.wikipedia.org/wiki/Ginevra">
+                            <settlement type="city">Ginevra</settlement>
+                            <country type="nation">Svizzera</country>
+                        </placeName>
+                      </place>
+            
+                      <place xml:id="PAR">
+                        <placeName ref="https://it.wikipedia.org/wiki/Parigi">
+                            <settlement type="city">Parigi</settlement>
+                            <country type="nation">Francia</country> 
+                        </placeName>
+                      </place>
+            
+                      <place xml:id="ARC">
+                        <placeName ref="https://it.wikipedia.org/wiki/Acireale">
+                            <settlement type="city">Acireale</settlement>
+                            <country type="nation">Italia</country> 
+                        </placeName>
+                      </place>
+            
+                      <place xml:id="PI">
+                        <placeName ref="https://it.wikipedia.org/wiki/Pisa">
+                            <settlement type="city">Pisa</settlement>
+                            <country type="nation">Italia</country>
+                        </placeName>
+                      </place>
+            
+                      <place xml:id="AU">
+                        <placeName ref="https://it.wikipedia.org/wiki/Alvernia">
+                            <region type="district">Alvernia</region>
+                            <country type="nation">Francia</country>
+                        </placeName>
+                    </place>
+
+                    <place xml:id="CH">
+                        <placeName ref="https://it.wikipedia.org/wiki/Svizzera">
+                            <country type="nation">Svizzera</country>
+                        </placeName>
+                    </place>
+
+                    <place xml:id="FR">
+                        <placeName ref="https://it.wikipedia.org/wiki/Francia">
+                            <country type="nation">Francia</country>
+                        </placeName>
+                    </place> 
+
+                    <place xml:id="ALP">
+                        <placeName ref="https://it.wikipedia.org/wiki/Alpi">
+                            <country type="nation">Francia</country>
+                        </placeName>
+                    </place> 
+
+                </listPlace>
+            </div>
+
+            <!-- PEOPLE -->
+            <div type="persone_coinvolte">
+                <listPerson>
+                    <person>
+                      <persName xml:id="FdS">Ferdinand de Saussure</persName>
+                      <persName xml:id="GW">Georg Wenker</persName>
+                      <persName xml:id="AMDG">Angelo Mario del Grosso</persName>
+                      <persName xml:id="EF">Emanuele Fadda</persName>
+                      <persName xml:id="CP">Chiara Piccolo</persName>
+                      <persName xml:id="PYY">Paula Yordanova Yoncheva</persName>
+                    </person>
+                  </listPerson>
+            </div>
+
+             <!-- ORGANIZATIONS -->
+            <div type="organizzazioni">
+                <listOrg>
+                    <org>
+                        <orgName xml:id="BDG" type="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Bibliothèque de Genève</orgName>
+                    </org>
+                </listOrg>
+            </div>
+
+            <!-- BIBLIOGRAPHY -->
+            <div type="bibliografia">
+                <listBibl>
+                    <head>Works consulted:</head>
+                    <bibl xml:lang="fr">
+                        <title>Ecrits de linguistique générale</title>
+                        <author ref="#FdS">Ferdinand de Saussure</author>
+                        <editor>S. Bouquet</editor>
+                        <editor>R. Engler</editor>
+                        <date when="2002">2002</date>
+                        <publisher>Gallimard</publisher>
+                        <pubPlace>
+                        <placeName ref="#PAR">Parigi</placeName>
+                        </pubPlace>
+                    </bibl>
+
+                    <bibl xml:lang="ger" xml:id="SDR">
+                        <title>Sprachatlas des Deutschen Reichs</title>
+                        <author ref="#GW">Georg Wenker</author>
+                        <date when="1881">1881</date>
+                    </bibl>
+            
+                    <bibl xml:lang="it">
+                        <title type="main">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <author ref="#EF">Emanuele Fadda</author>
+                        <date when="2006">2006</date>
+                        <publisher>Bonanno Editore</publisher>
+                        <pubPlace>
+                        <placeName ref="#ARC">Acireale</placeName>
+                        </pubPlace>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+
+</TEI>
