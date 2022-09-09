@@ -58,7 +58,7 @@
         <br/>
         <b>Condizioni: </b> <xsl:value-of select="//tei:condition"/>
         <br/>
-        <b>Data e luogo: </b> <xsl:value-of select="//tei:origin/."/>
+        <b>Data e luogo: </b> <xsl:value-of select="//tei:origin"/>
 </div>
 <br/><br/><br/><br/>
 
