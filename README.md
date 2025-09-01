@@ -1,4 +1,4 @@
-# Esame-Codifica-2021-2022
+# Codifica di Testi 2021-2022
 
 Progetto esame Codifica di Testi. 
 
